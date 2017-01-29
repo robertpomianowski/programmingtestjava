@@ -11,6 +11,9 @@ import java.math.BigDecimal;
  */
 @Entity
 @Table(name = "book")
+/**
+ * To hide any of the fields in json view retrieved by controller you can add @JsonIgnore annotation
+ */
 public class Book implements Serializable {
 
     @Id
