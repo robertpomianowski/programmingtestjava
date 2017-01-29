@@ -4,3 +4,5 @@ To run program You have to specify correct path to database in src/main/resource
 
 EXAMPLE:
 jdbc.url=jdbc:sqlite:/Users/aaroon/books.sqlite
+
+As a web container You can use for example Apache Tomcat.
